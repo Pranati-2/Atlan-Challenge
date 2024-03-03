@@ -1,0 +1,88 @@
+.wall-of-fame {
+    margin:20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to bottom right, #aaffaa,white);
+  }
+  body {
+    font-family: 'Your Chosen Font', sans-serif; 
+  }
+
+  h1 {
+    text-align: center;
+  }
+  .wall-of-fame h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .top-liked,
+  .top-shared {
+    margin-top: 20px;
+    margin: 30px;
+    border: black;
+    border-radius: 10px;
+  }
+  
+  .top-liked h3,
+  .top-shared h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+   
+  }
+  
+  .top-liked ul,
+  .top-shared ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .top-liked li,
+  .top-shared li {
+    margin-bottom: 5px;
+  }
+  /* WallOfFame.css */
+  #wallOfFameImage {
+    display: block;
+    margin: 0 auto; 
+    
+    border-radius: 50%; 
+  }
+  
+
+.wall-of-fame {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .top-liked,
+  .top-shared {
+    text-align: center;
+  }
+  
+  .model-list {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .fame-card {
+    text-align: center;
+  }
+  
+  .model-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+
+  .fame-card p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  
